@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Andrej Pregl",
-    "label": "Python enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.",
+    "label": "Software Developer",
     "picture": "https://avatars0.githubusercontent.com/u/1135081",
     "email": "andrej.pregl@icloud.com",
     "phone": "",
     "website": "http://pregl.se",
-    "summary": "Computer Software",
+    "summary": "Python enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,8 +37,8 @@
       "highlights": []
     },
     {
-      "company": "The Dutch Postcode Lottery",
-      "position": "Software Developer for Dynabyte AB",
+      "company": "Dynabyte AB",
+      "position": "Software Development Consultant at The Dutch Postcode Lottery",
       "website": "",
       "startDate": "2016-05-01",
       "summary": "Developed two microservices in Java 8 using the Dropwizard framework.  The first service provided an REST API  for administration of lottery VIP cards which give discounts at various events. It used EnterpiseDB for storage and communicated with a third party using SOAP.  The second service acted as a API layer between multiple corporate and third party sites and two backends. Idea was that the API layer would work both with the legacy monolithic backend and the new one being built which has a microservice architecture while providing the same API towards the mentioned sites.",
@@ -46,7 +46,7 @@
       "endDate": "2017-02-01"
     },
     {
-      "company": "Leica Geosystems",
+      "company": "Leica Geosystems Technology AB",
       "position": "Software Developer/Team Leader",
       "website": "",
       "startDate": "2013-07-01",

@@ -1,569 +1,703 @@
-<!doctype html>
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Andrej Pregl</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-
-	<title>Andrej Pregl</title>
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-	margin-top: 0
-}
-section {
-	margin-top: 30px;
-}
-li {
-	line-height: 1.8;
-	list-style: none;
-}
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
 }
 blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
-}
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
-}
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
-}
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px;
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
+  font-size: 1em;
 }
 
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
-}
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
-}
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
 }
 
-	</style>
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
 
-	</head>
-	<body>
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Andrej Pregl
-					</h1>
-					<h2>
-						Python enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
 
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">andrej.pregl@icloud.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone"></div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="http://pregl.se">http://pregl.se</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>Computer Software</p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						Github
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://github.com/ws141">ws141</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						Twitter
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://twitter.com/ws141">ws141</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
 
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Zebware AB</span>
-					<span class="date">
-						2017-02-01 —
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href=""></a>
-				</div>
-				<div class="position">
-					Software Developer
-				</div>
-				<div class="summary">
-					<p></p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>The Dutch Postcode Lottery</span>
-					<span class="date">
-						2016-05-01 — 2017-02-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href=""></a>
-				</div>
-				<div class="position">
-					Software Developer for Dynabyte AB
-				</div>
-				<div class="summary">
-					<p>Developed two microservices in Java 8 using the Dropwizard framework.  The first service provided an REST API  for administration of lottery VIP cards which give discounts at various events. It used EnterpiseDB for storage and communicated with a third party using SOAP.  The second service acted as a API layer between multiple corporate and third party sites and two backends. Idea was that the API layer would work both with the legacy monolithic backend and the new one being built which has a microservice architecture while providing the same API towards the mentioned sites.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Leica Geosystems</span>
-					<span class="date">
-						2013-07-01 — 2016-05-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href=""></a>
-				</div>
-				<div class="position">
-					Software Developer/Team Leader
-				</div>
-				<div class="summary">
-					<p>Migrated a telematics platform from PHP to Python mainly using Django and Django REST Framework.   Developed two iOS applications for tracking different activities on a construction site, one being only a concept app. The apps we&#x27;re collecting sensor data and user input on the iOS device while transferring it with JSON/XML over HTTP or protobuf over MQTT.  Was part of the introduction of Scrum in team, coaching team members.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Svensk Byggnadsgeodesi AB</span>
-					<span class="date">
-						2010-11-01 — 2013-07-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href=""></a>
-				</div>
-				<div class="position">
-					Software Developer
-				</div>
-				<div class="summary">
-					<p>Rewrote the Viewserve Fleet management system by separating front and backend using ExtJS as the main frontend framework and .NET for the backend.  Heavily refactored a telematics platform with a PHP code base in order to get the code to a more maintainable state. Focused on adding stability and scalability in the platform while also adding new features.   Developed a J2ME application for an embedded device used to track construction vehicle location on a site.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Viewserve AB (part of Hexagon Group)</span>
-					<span class="date">
-						2009-11-01 — 2010-11-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href=""></a>
-				</div>
-				<div class="position">
-					Software Developer
-				</div>
-				<div class="summary">
-					<p>Worked on developing a web based Fleet management system. Tracking construction, road maintenance and alpine vehicles. The platform consisted of multiple modules and was built in VB and ASP.NET.  Also developed parts of the embedded tracking devices in C.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Brand plus Net AB</span>
-					<span class="date">
-						2008-11-01 — 2009-11-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href=""></a>
-				</div>
-				<div class="position">
-					Software Developer
-				</div>
-				<div class="summary">
-					<p>Developed an user generated news platform in Java which was later ported to PHP using Drupal.</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
 
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
 
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>KTH Royal Institute of Technology</span>
-					<span class="date">
-						2004-01-01 — 2008-01-01
-					</span>
-				</h4>
-				<div class="area">
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
 
-				</div>
-				<div class="studyType">
-					Bachelor
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Huddingegymnasiet</span>
-					<span class="date">
-						2000-01-01 — 2003-01-01
-					</span>
-				</h4>
-				<div class="area">
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
 
-				</div>
-				<div class="studyType">
-					The Natural Science Programme
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+a[href]:after {
+  content: none !important;
+}
 
+#photo{
+  display: none;
+}
 
+.box {
+  margin-bottom: -10px;
+}
 
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Web Services</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>REST</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Python</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Django</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>JavaScript</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>PHP</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>MySQL</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Git</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>iOS development</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Linux</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>C#</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Mono</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Java</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Go</h4>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
 
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Native or bilingual proficiency
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Swedish</strong>
-				</div>
-				<div class="fluency">
-					Native or bilingual proficiency
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Serbo-Croatian</strong>
-				</div>
-				<div class="fluency">
-					Native or bilingual proficiency
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
 
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
 
-	<section id="references" class="row">
-		<aside class="col-sm-3">
-			<h3>References</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>&#x27;Swiss army knife&#x27; is the first thing that comes to mind when I think about Andrej. For the five years I&#x27;ve managed Andrej he has been exceptionally versatile, always eager to jump into a task even when the language, platform, tools are unknown for him before hand. Doing so wIth great success!   Andrej is a great addition to any team looking for something else than a &#x27;hammer&#x27;.</p>
-					<p class="name">
-						<strong>— Ramzi Ferchichi - Zebware AB</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>I experienced Andrej as a pleasant person to work with and I regret to see him leave. The work Andrej and the team delivered is of exceptional quality and the enthousiasm and involvement of Andrej is of the next level. Andrej had a big influence in this.  I advice to everybody who works with him to get him involved, take his advice into account and listen to what is has to say. For me and my company it helped a lot to make the right choices. Andrej thanks for the good time and it was an honor to work with you.</p>
-					<p class="name">
-						<strong>— Eddy Slijkerman - Prowareness</strong>
-					</p>
-				</blockquote>
-			</div>
-			</div>
-		</div>
-	</section>
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
 
-	</div>
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
 
-	</body>
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;avatars0.githubusercontent.com&#x2F;u&#x2F;1135081" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Andrej Pregl<br><span>Software Developer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fa fa-user ico"></i> About</h2>
+            <p>Python enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Zebware AB</div>
+                    <div class="year">February 2017 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Developer</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Dynabyte AB</div>
+                    <div class="year">May 2016 – February 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Development Consultant at The Dutch Postcode Lottery</div>
+                    <div class="description">
+                      Developed two microservices in Java 8 using the Dropwizard framework.  The first service provided an REST API  for administration of lottery VIP cards which give discounts at various events. It used EnterpiseDB for storage and communicated with a third party using SOAP.  The second service acted as a API layer between multiple corporate and third party sites and two backends. Idea was that the API layer would work both with the legacy monolithic backend and the new one being built which has a microservice architecture while providing the same API towards the mentioned sites.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Leica Geosystems Technology AB</div>
+                    <div class="year">July 2013 – May 2016</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Developer&#x2F;Team Leader</div>
+                    <div class="description">
+                      Migrated a telematics platform from PHP to Python mainly using Django and Django REST Framework.   Developed two iOS applications for tracking different activities on a construction site, one being only a concept app. The apps we're collecting sensor data and user input on the iOS device while transferring it with JSON/XML over HTTP or protobuf over MQTT.  Was part of the introduction of Scrum in team, coaching team members.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Svensk Byggnadsgeodesi AB</div>
+                    <div class="year">November 2010 – July 2013</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Developer</div>
+                    <div class="description">
+                      Rewrote the Viewserve Fleet management system by separating front and backend using ExtJS as the main frontend framework and .NET for the backend.  Heavily refactored a telematics platform with a PHP code base in order to get the code to a more maintainable state. Focused on adding stability and scalability in the platform while also adding new features.   Developed a J2ME application for an embedded device used to track construction vehicle location on a site.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Viewserve AB (part of Hexagon Group)</div>
+                    <div class="year">November 2009 – November 2010</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Developer</div>
+                    <div class="description">
+                      Worked on developing a web based Fleet management system. Tracking construction, road maintenance and alpine vehicles. The platform consisted of multiple modules and was built in VB and ASP.NET.  Also developed parts of the embedded tracking devices in C.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Brand plus Net AB</div>
+                    <div class="year">November 2008 – November 2009</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Developer</div>
+                    <div class="description">
+                      Developed an user generated news platform in Java which was later ported to PHP using Drupal.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Stockholm, Sweden</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:andrej.pregl@icloud.com" target="_blank">andrej.pregl@icloud.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="http:&#x2F;&#x2F;pregl.se" target="_blank">http:&#x2F;&#x2F;pregl.se</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+              <div class="title pull-right">Github</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;ws141" target="_blank">ws141</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;ws141" target="_blank">ws141</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fa fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2004 2008</div>
+                <div class="description pull-right">
+                  <h3>KTH Royal Institute of Technology</h3>
+                  <p><i class= "fa fa-graduation-cap ico"></i> Bachelor</p>
+                  <p></p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2000 2003</div>
+                <div class="description pull-right">
+                  <h3>Huddingegymnasiet</h3>
+                  <p><i class= "fa fa-graduation-cap ico"></i> The Natural Science Programme</p>
+                  <p></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Services
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  REST
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Python
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Django
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  JavaScript
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  PHP
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  MySQL
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Git
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  iOS development
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Linux
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  C#
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Mono
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Java
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Go
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2><i class="fa fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">English<span class="skill badge pull-right">Native or bilingual proficiency</span></li>
+              <li class=" list-group-item">Swedish<span class="skill badge pull-right">Native or bilingual proficiency</span></li>
+              <li class=" list-group-item">Serbo-Croatian<span class="skill badge pull-right">Native or bilingual proficiency</span></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h2><i class= "fa fa-check-square ico"></i> References</h2>
+            <blockquote>
+              <div>'Swiss army knife' is the first thing that comes to mind when I think about Andrej. For the five years I've managed Andrej he has been exceptionally versatile, always eager to jump into a task even when the language, platform, tools are unknown for him before hand. Doing so wIth great success!   Andrej is a great addition to any team looking for something else than a 'hammer'.</div>
+              <footer>
+                <a href="" target= "_blank">Ramzi Ferchichi - Zebware AB</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>I experienced Andrej as a pleasant person to work with and I regret to see him leave. The work Andrej and the team delivered is of exceptional quality and the enthousiasm and involvement of Andrej is of the next level. Andrej had a big influence in this.  I advice to everybody who works with him to get him involved, take his advice into account and listen to what is has to say. For me and my company it helped a lot to make the right choices. Andrej thanks for the good time and it was an honor to work with you.</div>
+              <footer>
+                <a href="" target= "_blank">Eddy Slijkerman - Prowareness</a>
+              </footer>
+            </blockquote><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>
