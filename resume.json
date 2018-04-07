@@ -1,0 +1,201 @@
+{
+  "basics": {
+    "name": "Andrej Pregl",
+    "label": "Python enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.",
+    "picture": "https://avatars0.githubusercontent.com/u/1135081",
+    "email": "andrej.pregl@icloud.com",
+    "phone": "",
+    "website": "http://pregl.se",
+    "summary": "Computer Software",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Stockholm, Sweden",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ws141",
+        "url": "https://github.com/ws141"
+      },
+      {
+        "network": "Twitter",
+        "username": "ws141",
+        "url": "https://twitter.com/ws141"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Zebware AB",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2017-02-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "The Dutch Postcode Lottery",
+      "position": "Software Developer for Dynabyte AB",
+      "website": "",
+      "startDate": "2016-05-01",
+      "summary": "Developed two microservices in Java 8 using the Dropwizard framework.  The first service provided an REST API  for administration of lottery VIP cards which give discounts at various events. It used EnterpiseDB for storage and communicated with a third party using SOAP.  The second service acted as a API layer between multiple corporate and third party sites and two backends. Idea was that the API layer would work both with the legacy monolithic backend and the new one being built which has a microservice architecture while providing the same API towards the mentioned sites.",
+      "highlights": [],
+      "endDate": "2017-02-01"
+    },
+    {
+      "company": "Leica Geosystems",
+      "position": "Software Developer/Team Leader",
+      "website": "",
+      "startDate": "2013-07-01",
+      "summary": "Migrated a telematics platform from PHP to Python mainly using Django and Django REST Framework.   Developed two iOS applications for tracking different activities on a construction site, one being only a concept app. The apps we're collecting sensor data and user input on the iOS device while transferring it with JSON/XML over HTTP or protobuf over MQTT.  Was part of the introduction of Scrum in team, coaching team members.",
+      "highlights": [],
+      "endDate": "2016-05-01"
+    },
+    {
+      "company": "Svensk Byggnadsgeodesi AB",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2010-11-01",
+      "summary": "Rewrote the Viewserve Fleet management system by separating front and backend using ExtJS as the main frontend framework and .NET for the backend.  Heavily refactored a telematics platform with a PHP code base in order to get the code to a more maintainable state. Focused on adding stability and scalability in the platform while also adding new features.   Developed a J2ME application for an embedded device used to track construction vehicle location on a site.",
+      "highlights": [],
+      "endDate": "2013-07-01"
+    },
+    {
+      "company": "Viewserve AB (part of Hexagon Group)",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2009-11-01",
+      "summary": "Worked on developing a web based Fleet management system. Tracking construction, road maintenance and alpine vehicles. The platform consisted of multiple modules and was built in VB and ASP.NET.  Also developed parts of the embedded tracking devices in C.",
+      "highlights": [],
+      "endDate": "2010-11-01"
+    },
+    {
+      "company": "Brand plus Net AB",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2008-11-01",
+      "summary": "Developed an user generated news platform in Java which was later ported to PHP using Drupal.",
+      "highlights": [],
+      "endDate": "2009-11-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "KTH Royal Institute of Technology",
+      "area": "",
+      "studyType": "Bachelor",
+      "startDate": "2004-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2008-01-01"
+    },
+    {
+      "institution": "Huddingegymnasiet",
+      "area": "",
+      "studyType": "The Natural Science Programme",
+      "startDate": "2000-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2003-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Django",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "iOS development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mono",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Go",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Serbo-Croatian",
+      "fluency": "Native or bilingual proficiency"
+    }
+  ],
+  "references": [
+    {
+      "name": "Ramzi Ferchichi - Zebware AB",
+      "reference": "'Swiss army knife' is the first thing that comes to mind when I think about Andrej. For the five years I've managed Andrej he has been exceptionally versatile, always eager to jump into a task even when the language, platform, tools are unknown for him before hand. Doing so wIth great success!   Andrej is a great addition to any team looking for something else than a 'hammer'."
+    },
+    {
+      "name": "Eddy Slijkerman - Prowareness",
+      "reference": "I experienced Andrej as a pleasant person to work with and I regret to see him leave. The work Andrej and the team delivered is of exceptional quality and the enthousiasm and involvement of Andrej is of the next level. Andrej had a big influence in this.  I advice to everybody who works with him to get him involved, take his advice into account and listen to what is has to say. For me and my company it helped a lot to make the right choices. Andrej thanks for the good time and it was an honor to work with you."
+    }
+  ]
+}

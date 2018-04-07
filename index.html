@@ -1,10 +1,569 @@
+<!doctype html>
 <html>
-    <head>
-        <title>
-            Hi
-        </title>
-    </head>
-    <body>
-        Hi
-    </body>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Andrej Pregl</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Andrej Pregl
+					</h1>
+					<h2>
+						Python enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">andrej.pregl@icloud.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone"></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://pregl.se">http://pregl.se</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Computer Software</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/ws141">ws141</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/ws141">ws141</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Zebware AB</span>
+					<span class="date">
+						2017-02-01 —
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>The Dutch Postcode Lottery</span>
+					<span class="date">
+						2016-05-01 — 2017-02-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Software Developer for Dynabyte AB
+				</div>
+				<div class="summary">
+					<p>Developed two microservices in Java 8 using the Dropwizard framework.  The first service provided an REST API  for administration of lottery VIP cards which give discounts at various events. It used EnterpiseDB for storage and communicated with a third party using SOAP.  The second service acted as a API layer between multiple corporate and third party sites and two backends. Idea was that the API layer would work both with the legacy monolithic backend and the new one being built which has a microservice architecture while providing the same API towards the mentioned sites.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Leica Geosystems</span>
+					<span class="date">
+						2013-07-01 — 2016-05-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Software Developer/Team Leader
+				</div>
+				<div class="summary">
+					<p>Migrated a telematics platform from PHP to Python mainly using Django and Django REST Framework.   Developed two iOS applications for tracking different activities on a construction site, one being only a concept app. The apps we&#x27;re collecting sensor data and user input on the iOS device while transferring it with JSON/XML over HTTP or protobuf over MQTT.  Was part of the introduction of Scrum in team, coaching team members.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Svensk Byggnadsgeodesi AB</span>
+					<span class="date">
+						2010-11-01 — 2013-07-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>Rewrote the Viewserve Fleet management system by separating front and backend using ExtJS as the main frontend framework and .NET for the backend.  Heavily refactored a telematics platform with a PHP code base in order to get the code to a more maintainable state. Focused on adding stability and scalability in the platform while also adding new features.   Developed a J2ME application for an embedded device used to track construction vehicle location on a site.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Viewserve AB (part of Hexagon Group)</span>
+					<span class="date">
+						2009-11-01 — 2010-11-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>Worked on developing a web based Fleet management system. Tracking construction, road maintenance and alpine vehicles. The platform consisted of multiple modules and was built in VB and ASP.NET.  Also developed parts of the embedded tracking devices in C.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Brand plus Net AB</span>
+					<span class="date">
+						2008-11-01 — 2009-11-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>Developed an user generated news platform in Java which was later ported to PHP using Drupal.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>KTH Royal Institute of Technology</span>
+					<span class="date">
+						2004-01-01 — 2008-01-01
+					</span>
+				</h4>
+				<div class="area">
+
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Huddingegymnasiet</span>
+					<span class="date">
+						2000-01-01 — 2003-01-01
+					</span>
+				</h4>
+				<div class="area">
+
+				</div>
+				<div class="studyType">
+					The Natural Science Programme
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Services</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>REST</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Python</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Django</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>JavaScript</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>PHP</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>MySQL</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Git</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>iOS development</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Linux</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>C#</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Mono</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Java</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Go</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native or bilingual proficiency
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Swedish</strong>
+				</div>
+				<div class="fluency">
+					Native or bilingual proficiency
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Serbo-Croatian</strong>
+				</div>
+				<div class="fluency">
+					Native or bilingual proficiency
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>&#x27;Swiss army knife&#x27; is the first thing that comes to mind when I think about Andrej. For the five years I&#x27;ve managed Andrej he has been exceptionally versatile, always eager to jump into a task even when the language, platform, tools are unknown for him before hand. Doing so wIth great success!   Andrej is a great addition to any team looking for something else than a &#x27;hammer&#x27;.</p>
+					<p class="name">
+						<strong>— Ramzi Ferchichi - Zebware AB</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I experienced Andrej as a pleasant person to work with and I regret to see him leave. The work Andrej and the team delivered is of exceptional quality and the enthousiasm and involvement of Andrej is of the next level. Andrej had a big influence in this.  I advice to everybody who works with him to get him involved, take his advice into account and listen to what is has to say. For me and my company it helped a lot to make the right choices. Andrej thanks for the good time and it was an honor to work with you.</p>
+					<p class="name">
+						<strong>— Eddy Slijkerman - Prowareness</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+
+	</body>
 </html>
