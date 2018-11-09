@@ -31,7 +31,7 @@
     {
       "company": "Zebware AB",
       "position": "Software Developer",
-      "website": "",
+      "website": "https://zebware.com/",
       "startDate": "2017-02-01",
       "summary": "",
       "highlights": []
@@ -39,7 +39,7 @@
     {
       "company": "Dynabyte AB",
       "position": "Software Development Consultant at The Dutch Postcode Lottery",
-      "website": "",
+      "website": "https://dynabyte.se",
       "startDate": "2016-05-01",
       "summary": "Developed two microservices in Java 8 using the Dropwizard framework.  The first service provided an REST API  for administration of lottery VIP cards which give discounts at various events. It used EnterpiseDB for storage and communicated with a third party using SOAP.  The second service acted as a API layer between multiple corporate and third party sites and two backends. Idea was that the API layer would work both with the legacy monolithic backend and the new one being built which has a microservice architecture while providing the same API towards the mentioned sites.",
       "highlights": [],
@@ -48,7 +48,7 @@
     {
       "company": "Leica Geosystems Technology AB",
       "position": "Software Developer/Team Leader",
-      "website": "",
+      "website": "https://leica-geosystems.com/",
       "startDate": "2013-07-01",
       "summary": "Migrated a telematics platform from PHP to Python mainly using Django and Django REST Framework.   Developed two iOS applications for tracking different activities on a construction site, one being only a concept app. The apps we're collecting sensor data and user input on the iOS device while transferring it with JSON/XML over HTTP or protobuf over MQTT.  Was part of the introduction of Scrum in team, coaching team members.",
       "highlights": [],
@@ -57,7 +57,7 @@
     {
       "company": "Svensk Byggnadsgeodesi AB",
       "position": "Software Developer",
-      "website": "",
+      "website": "http://sbg.se/",
       "startDate": "2010-11-01",
       "summary": "Rewrote the Viewserve Fleet management system by separating front and backend using ExtJS as the main frontend framework and .NET for the backend.  Heavily refactored a telematics platform with a PHP code base in order to get the code to a more maintainable state. Focused on adding stability and scalability in the platform while also adding new features.   Developed a J2ME application for an embedded device used to track construction vehicle location on a site.",
       "highlights": [],
