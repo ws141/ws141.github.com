@@ -6,7 +6,7 @@
     "email": "andrej.pregl@icloud.com",
     "phone": "",
     "website": "http://pregl.se",
-    "summary": "Python enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.",
+    "summary": "Coding enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,7 +33,7 @@
       "position": "Software Developer",
       "website": "https://zebware.com/",
       "startDate": "2017-02-01",
-      "summary": "",
+      "summary": "Developed Orchesto, an easy to use object storage gateway written in Go. The gateway unified multi-cloud and on-prem storage solutions allowing users to access all of their data through a single S3 compatible endpoint. Configuration of the gateway was performed via the self hosted web frontend app written in React using Ant Design which was embedded in the single application binary or a custom RESTful API.",
       "highlights": []
     },
     {
@@ -114,12 +114,27 @@
       "keywords": []
     },
     {
-      "name": "Python",
+      "name": "Linux",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Django",
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Go",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
       "level": "",
       "keywords": []
     },
@@ -134,22 +149,7 @@
       "keywords": []
     },
     {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "iOS development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
       "level": "",
       "keywords": []
     },
@@ -159,17 +159,12 @@
       "keywords": []
     },
     {
-      "name": "Mono",
+      "name": "Django",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Java",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Go",
+      "name": "MySQL",
       "level": "",
       "keywords": []
     }
