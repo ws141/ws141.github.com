@@ -1,0 +1,24 @@
+{
+  "name": "ws141.github.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-kendall": "^0.1.19",
+    "resume-cli": "^1.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gen": "./gen.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ws141/ws141.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ws141/ws141.github.com/issues"
+  },
+  "homepage": "https://github.com/ws141/ws141.github.com#readme"
+}
