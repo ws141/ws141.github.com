@@ -29,12 +29,21 @@
   },
   "work": [
     {
-      "company": "Zebware AB",
+      "company": "iModules AB",
       "position": "Software Developer",
+      "website": "https://gloot.com/",
+      "startDate": "2019-04-29",
+      "summary": "Developing the mobile G-Loot platform in Java 8 on Google App Engine.",
+      "highlights": []
+    },
+    {
+      "company": "Zebware AB",
+      "position": "Software Developer/Team Leader",
       "website": "https://zebware.com/",
       "startDate": "2017-02-01",
       "summary": "Developed Orchesto, an easy to use object storage gateway written in Go. The gateway unified multi-cloud and on-prem storage solutions allowing users to access all of their data through a single S3 compatible endpoint. Configuration of the gateway was performed via the self hosted web frontend app written in React using Ant Design which was embedded in the single application binary or a custom RESTful API.",
-      "highlights": []
+      "highlights": [],
+      "endDate": "2019-04-25"
     },
     {
       "company": "Dynabyte AB",
