@@ -5,7 +5,7 @@
     "picture": "https://avatars0.githubusercontent.com/u/1135081",
     "email": "andrej.pregl@icloud.com",
     "phone": "",
-    "website": "http://pregl.se",
+    "website": "https://pregl.se",
     "summary": "Coding enthusiast that thrives on deep diving into new challenges. Always interested in learning about new tools and techniques. Enjoyes a fast paced environment where issues that arise are met as opportunities to improve rather then just problems.  Prefers to refactor rather then starting from scratch, work agile rather then by waterfall, use Unix based systems rather then Windows ones.",
     "location": {
       "address": "",
@@ -29,12 +29,21 @@
   },
   "work": [
     {
+      "company": "Hospitad AB",
+      "position": "Software Developer",
+      "website": "https://parsly.com/",
+      "startDate": "2022-04-04",
+      "summary": "Developing the Parsly platform in Kotlin and Java.",
+      "highlights": []
+    },
+    {
       "company": "iModules AB",
       "position": "Software Developer",
       "website": "https://gloot.com/",
       "startDate": "2019-04-29",
-      "summary": "Developing the mobile G-Loot platform in Java 8 on Google App Engine.",
-      "highlights": []
+      "summary": "Developing the mobile G-Loot platform in Java 8 on Google App Engine. Also focused on building and maintaining the infrastructure in Google Cloud Platform with Terraform and FluxCD. Lastly worked on developing microservices in Java with Spring Boot.",
+      "highlights": [],
+      "endDate": "2022-04-01"
     },
     {
       "company": "Zebware AB",
