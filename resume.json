@@ -122,69 +122,24 @@
   ],
   "skills": [
     {
-      "name": "Web Services",
+      "name": "Languages",
       "level": "",
-      "keywords": []
+      "keywords": ["Java", "Python", "Go", "JavaScript"]
     },
     {
-      "name": "REST",
+      "name": "Frameworks",
       "level": "",
-      "keywords": []
+      "keywords": ["Spring Boot", "Dropwizard", "Django"]
     },
     {
-      "name": "Linux",
+      "name": "Web Service Platforms",
       "level": "",
-      "keywords": []
+      "keywords": ["Google Cloud Platform", "Aamzon Web Services"]
     },
     {
-      "name": "Git",
+      "name": "OS/Tools",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Java",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Go",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PHP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "iOS development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C#",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Django",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
+      "keywords": ["Debian", "IntelliJ IDEA", "Codium"]
     }
   ],
   "languages": [
