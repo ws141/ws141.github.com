@@ -29,12 +29,21 @@
   },
   "work": [
     {
+      "company": "Epidemic Sound AB",
+      "position": "Software Developer",
+      "website": "https://epidemicsound.com/",
+      "startDate": "2023-12-11",
+      "summary": "Developing internal services in kotlin.",
+      "highlights": []
+    },
+    {
       "company": "Hospitad AB",
       "position": "Software Developer",
       "website": "https://parsly.com/",
       "startDate": "2022-04-04",
       "summary": "Developing the Parsly backend microservices mainly in SpringBoot with Kotlin but also in Quarkus with Java. All services used Postgres databases and were hosted in AWS on ElasticBeanstalk. Also helped out with both serverless backend development in Golang and frontend bugfixing in NextJS.",
-      "highlights": []
+      "highlights": [],
+      "endDate": "2023-12-07"
     },
     {
       "company": "iModules AB",
