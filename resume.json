@@ -28,7 +28,7 @@
       "position": "Software Developer",
       "website": "https://epidemicsound.com/",
       "startDate": "2023-12-11",
-      "summary": "Developing internal services in kotlin.",
+      "summary": "Replaced the authentication to Okta in the main back office tool for music ingestion with the Ktor framework in Kotlin. Worked on migrating the music taxonomy from the Ktor service into a separate Go microservice and updating the related Airflow DAGs. Coached junior developer during the taxonomy migration process. Added authentication and fixed bugs in the asset generating service written in Django and Dramatiq that used CloudRun in GCP to run jobs. Performed a technical feasibility analysis on the replacement of core parts of the backoffice tool with a third-party vendor named OpenPlay. Dabbled with Cursor and Claude to generate a frontend for the taxonomy service and create a new Go microservice that enriches the music metadata.",
       "highlights": []
     },
     {
@@ -128,12 +128,12 @@
     {
       "name": "Languages",
       "level": "",
-      "keywords": ["Java", "Python", "Go", "JavaScript"]
+      "keywords": ["Java", "Kotlin", "Python", "Go", "JavaScript"]
     },
     {
       "name": "Frameworks",
       "level": "",
-      "keywords": ["Spring Boot", "Dropwizard", "Django"]
+      "keywords": ["Spring Boot", "Dropwizard", "Django", "Ktor", "Airflow"]
     },
     {
       "name": "Web Service Platforms",
